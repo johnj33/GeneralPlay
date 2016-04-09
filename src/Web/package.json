@@ -28,7 +28,7 @@
       "bootstrap": "github:twbs/bootstrap@^3.3.5",
       "core-js": "npm:core-js@^2.0.3",
       "fetch": "github:github/fetch@^0.10.1",
-      "font-awesome": "npm:font-awesome@^4.4.0",
+      "font-awesome": "npm:font-awesome@^4.5.0",
       "text": "github:systemjs/plugin-text@^0.0.3",
       "ts": "github:frankwallis/plugin-typescript@^2.5.6"
     },
