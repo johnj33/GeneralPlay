@@ -1,3 +1,8 @@
 export class App {
-  message: string = 'Welcome to Aurelia!';
+    message: string = 'Page Number: ';
+    pageNumber: number = 1;
+    public changePage(value: number) {
+      this.pageNumber += value;
+      console.log("got here");
+}
 }

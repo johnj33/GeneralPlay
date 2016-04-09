@@ -1,9 +1,33 @@
 <template>
-    <div class="jumbotron">
-        <button type="button"> 
-            test
-        </button>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">JJ's project</a>
         </div>
-  <h1>${message}</h1>
-  
+        <div id="navbar" class="navbar-collapse collapse">
+        </div>
+      </div>
+    </nav>
+
+    <div class="jumbotron">
+        <h1>Johns Page</h1>
+        <p> A page that John made to test and play with tech
+        </p>
+        <button class="btn btn-primary btn-lg" click.delegate="changePage(-1)">&laquo Previous</button>        
+        <button class="btn btn-primary btn-lg" click.delegate="changePage(1)">Next &raquo;</button>
+    </div>
+    <div class="container">
+        <div class="page-header">
+            <h1>${message} ${pageNumber}</h1>
+        </div>
+
+    </div>
+
+
 </template>
