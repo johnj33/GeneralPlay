@@ -1,12 +1,7 @@
 import {bindable} from "aurelia-framework";
+import {PageState} from "pageState"
 export class pageChangeJumbo {
-    @bindable pageNumber: number = 1;
+    @bindable pageState: PageState;
     
-    public changePage(value: number) {
-        this.pageNumber += value;
-    }
     
-    public ChangeToRandomPage(){
-        this.pageNumber = Math.floor((Math.random() * 10) + 1);
-    }
 }

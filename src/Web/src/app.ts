@@ -1,5 +1,8 @@
 import {bindable} from "aurelia-framework";
+import {PageState} from "pageState";
+
 export class App {
     message: string = 'Page Number: ';
-    public pageNumber: number = 1;
+    public pageState: PageState = new PageState();
+
 }

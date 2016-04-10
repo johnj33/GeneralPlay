@@ -3,11 +3,11 @@
     <require from="main-nav-bar"></require>
     
     <main-nav-bar></main-nav-bar>
-    <page-change-jumbo page-number.two-way="pageNumber"></page-change-jumbo>
+    <page-change-jumbo page-state.two-way="pageState"></page-change-jumbo>
     
     <div class="container">
         <div class="page-header">
-            <h1>${message} ${pageNumber}</h1>
+            <h1>${message} ${pageState.pageNumber}</h1>
         </div>
     </div>
 </template>
