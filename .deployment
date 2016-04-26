@@ -1,2 +1,2 @@
 [config]
-command = test.bat
+command = deploy.cmd
